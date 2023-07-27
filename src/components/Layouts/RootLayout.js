@@ -136,7 +136,9 @@ const RootLayout = ({ children }) => {
                     style={{
                         background: colorBgContainer,
                         minHeight: '100vh',
-                        color: 'black'
+                        color: 'black',
+                        display: 'flex',
+                        padding: "0 20px"
                     }}
                 >
                     {children}
