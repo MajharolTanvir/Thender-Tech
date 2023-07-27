@@ -1,0 +1,1088 @@
+
+{
+    "processor": [
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },{
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },{
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },{
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      }
+    ],
+    "motherboard": [
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },{
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },{
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },{
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      }
+    ],
+    "ram": [
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      }
+    ],
+    "power-supply": [
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      }
+    ],
+    "storage": [
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      }
+    ],
+    "monitor": [
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      }
+    ],
+    "casing":[
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      }
+    ],
+    "mouse": [
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      }
+    ],
+    "keyboard": [
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      },
+      {
+        "image": "",
+        "productName": "",
+        "category": "",
+        "description": "",
+        "price": "",
+        "status": "",
+        "rating": "",
+        "key-features": {
+          "brand": "",
+          "model": "",
+          "port": "",
+          "type": "",
+          "resolution": "",
+          "voltage": ""
+        },
+        "individual-Rating": 5,
+        "average-rating": 4,
+        "reviews": [
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          },
+          {
+            "email": "example@gmail.com",
+            "reviewText": ""
+          }
+        ]
+      }
+    ]
+}

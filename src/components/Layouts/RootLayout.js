@@ -53,13 +53,34 @@ const items = [
             </a>
         ),
         key: '5',
+    }, {
+        label: (
+            <a rel="noopener noreferrer" href="/categories/casing">
+                Casing
+            </a>
+        ),
+        key: '6',
+    }, {
+        label: (
+            <a rel="noopener noreferrer" href="/categories/mouse">
+                Mouse
+            </a>
+        ),
+        key: '7',
+    }, {
+        label: (
+            <a rel="noopener noreferrer" href="/categories/keyboard">
+                Keyboard
+            </a>
+        ),
+        key: '8',
     },
     {
         type: 'divider',
     }
 ];
 
-const RootLayout = () => {
+const RootLayout = ({ children }) => {
     const {
         token: { colorBgContainer },
     } = theme.useToken();
@@ -67,6 +88,7 @@ const RootLayout = () => {
         <Layout className="layout">
             <Header
                 style={{
+                    backgroundColor: '#1E062E',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'space-between'
@@ -117,7 +139,7 @@ const RootLayout = () => {
                         color: 'black'
                     }}
                 >
-                    Content
+                    {children}
                 </div>
             </Content>
             <Footer

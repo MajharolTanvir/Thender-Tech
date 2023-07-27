@@ -9,11 +9,11 @@ Build a clean and straightforward PC Builder website for PC parts and components
 ## Requirements
     
 ### Navbar:
-- Add a button named PC Builder.
+[x] Add a button named PC Builder.
 
-[ ] Clicking on the PC Builder button should redirect the user to the PC Builder page to start building their PC.
+[x] Clicking on the PC Builder button should redirect the user to the PC Builder page to start building their PC.
 
-[ ] The navbar should also have a Categories dropdown with the following categories:
+[x] The navbar should also have a Categories dropdown with the following categories:
 
 - CPU / Processor
 - Motherboard
@@ -27,17 +27,17 @@ Each category should have a corresponding route. (SSG implementation)
 #### Home Page: (SSG implementation)
 The home page should feature at least 6 random PC components as Featured Products.
 
-[ ] Each Featured product card should display the following properties:
+[] Each Featured product card should display the following properties:
 - Image
 - Product Name
 - Category
 - Price
 - Status ( In Stock | Out of stock)
 - Rating (Out of 5 Stars)
-[ ] Each featured product will be clickable and should take the user to the product detail page. (Button/Entire Card)
+[] Each featured product will be clickable and should take the user to the product detail page. (Button/Entire Card)
 
 
-[ ] There should be 6 Featured Categories under the Featured Product section. The Categories are:
+[] There should be 6 Featured Categories under the Featured Product section. The Categories are:
 
 - CPU / Processor
 - Motherboard
@@ -47,11 +47,11 @@ The home page should feature at least 6 random PC components as Featured Product
 - Monitor
 - Others (GPU, Mouse, Keyboard, etc…)
 
-[ ] Featured Category Sections: (SSG implementation)
+[] Featured Category Sections: (SSG implementation)
 Each featured category should be clickable.
 
-[ ] Clicking on any of the Featured Categories will redirect the user to another page where at least 3 products of that category will be displayed.
-[ ] Each product card on this page should show the following properties:
+[] Clicking on any of the Featured Categories will redirect the user to another page where at least 3 products of that category will be displayed.
+[] Each product card on this page should show the following properties:
 - Image
 - Product Name
 - Category
@@ -59,14 +59,14 @@ Each featured category should be clickable.
 - Status ( In Stock | Out of stock)
 - Rating (Out of 5 Stars)
 
-[ ] Each product retrieved after querying on this page will also be clickable and should take the user to the product detail page.
+[] Each product retrieved after querying on this page will also be clickable and should take the user to the product detail page.
 
 
 #### Product Detail Page / Route: (SSG implementation)
 
 #### Product Details:
 
-[ ] Each PC Component must have the following properties:
+[] Each PC Component must have the following properties:
 - Image
 - Product Name
 - Category
@@ -88,11 +88,11 @@ The PC Builder page should have category sections as follows:
 - Power Supply Unit
 - Storage Device
 - Monitor
-[ ] Each category will have a Choose/Select Button.
+[] Each category will have a Choose/Select Button.
 
-[ ] Clicking on the Choose/Select Button will take the user to another page where at least 3 components of that specific category will be displayed.
+[] Clicking on the Choose/Select Button will take the user to another page where at least 3 components of that specific category will be displayed.
 
-[ ] Each component card on this page should show the following properties:
+[] Each component card on this page should show the following properties:
 - Image
 - Product Name
 - Category
@@ -101,9 +101,9 @@ The PC Builder page should have category sections as follows:
 - Rating
 - Each component card on that page will have an Add To Builder Button.
 
-[ ] Clicking on this button will redirect the user to the PC Builder page, and it will update the state of that selected category section in the PC Builder Page with the selected component below. (You can use Redux / Context API to create a central store for this)
+[] Clicking on this button will redirect the user to the PC Builder page, and it will update the state of that selected category section in the PC Builder Page with the selected component below. (You can use Redux / Context API to create a central store for this)
 
-[ ] After adding at least 5 - 6 Components (CPU, RAM, Power Supply, Storage, Motherboard, Casing), the user will be able to click on the Complete Build button. (This button will be disabled unless the user adds at least 5-6 of the mentioned components)
+[] After adding at least 5 - 6 Components (CPU, RAM, Power Supply, Storage, Motherboard, Casing), the user will be able to click on the Complete Build button. (This button will be disabled unless the user adds at least 5-6 of the mentioned components)
 
 ### Bonus Part:
 The PC Builder Page should be a protected/private route (only logged-in users can visit this route). You have to use NextAuth with at least one social login (Google/Github) provider to enable user authentication.
