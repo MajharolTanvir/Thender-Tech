@@ -81,7 +81,7 @@ Each featured category should be clickable.
 
 ### PC Builder Page: (SSR implementation)
 
-The PC Builder page should have category sections as follows:
+[] The PC Builder page should have category sections as follows:
 - CPU / Processor
 - Motherboard
 - RAM
