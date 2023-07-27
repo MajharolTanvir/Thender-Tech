@@ -3,3 +3,7 @@
 export default function handler(req, res) {
   res.status(200).json({ name: 'John Doe' })
 }
+
+
+// Thunder-tech-admin
+// RLG826uZjfqzS3zI
