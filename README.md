@@ -1,7 +1,7 @@
 # ThunderTech
 
-- Github link: 
-- Live link: 
+- Github link: https://github.com/MajharolTanvir/Thunder-Tech
+- Live link: https://thunder-tech.vercel.app/
 
 ## Description
 Build a clean and straightforward PC Builder website for PC parts and components using Next.js. The website should include a PC Builder tool where users can add selected PC components to build their own PC.

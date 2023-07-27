@@ -1,6 +1,63 @@
 import React from 'react';
-import { Breadcrumb, Layout, Menu, theme } from 'antd';
+import { Button, Layout, theme } from 'antd';
+import Link from 'next/link';
+import { DownOutlined } from '@ant-design/icons';
+import { Dropdown, Space } from 'antd';
+
+
 const { Header, Content, Footer } = Layout;
+
+
+const items = [
+    {
+        label: (
+            <a rel="noopener noreferrer" href="/categories/processor">
+                Processor
+            </a>
+        ),
+        key: '0',
+    },
+    {
+        label: (
+            <a rel="noopener noreferrer" href="/categories/motherboard">
+                Motherboard
+            </a>
+        ),
+        key: '1',
+    },
+    {
+        label: (
+            <a rel="noopener noreferrer" href="/categories/ram">
+                RAM
+            </a>
+        ),
+        key: '2',
+    }, {
+        label: (
+            <a rel="noopener noreferrer" href="/categories/powersupply">
+                Power Supply Unit
+            </a>
+        ),
+        key: '3',
+    }, {
+        label: (
+            <a rel="noopener noreferrer" href="/categories/storagedevice">
+                Storage Device
+            </a>
+        ),
+        key: '4',
+    }, {
+        label: (
+            <a rel="noopener noreferrer" href="/categories/monitor">
+                Monitor
+            </a>
+        ),
+        key: '5',
+    },
+    {
+        type: 'divider',
+    }
+];
 
 const RootLayout = () => {
     const {
@@ -12,28 +69,46 @@ const RootLayout = () => {
                 style={{
                     display: 'flex',
                     alignItems: 'center',
+                    justifyContent: 'space-between'
                 }}
             >
-                <div className="demo-logo" />
-                <Menu
-                    theme="dark"
-                    mode="horizontal"
-                    defaultSelectedKeys={['2']}
-                    items={new Array(15).fill(null).map((_, index) => {
-                        const key = index + 1;
-                        return {
-                            key,
-                            label: `nav ${key}`,
-                        };
-                    })}
-                />
+                <div><h1>
+                    <Link
+                        href="/"
+                        style={{
+                            color: "white",
+                            padding: "5px 10px",
+                            borderRadius: "3px",
+                        }}
+                    >
+                        Thunder_Tech
+                    </Link>
+                </h1></div>
+                <Dropdown
+                    menu={{
+                        items,
+                    }}
+                >
+                    <a onClick={(e) => e.preventDefault()}>
+                        <Space style={{
+                            color: 'white',
+                            fontSize: '16px'
+                        }}>
+                            Categories
+                            <DownOutlined />
+                        </Space>
+                    </a>
+                </Dropdown>
+                <Button>
+                    PC Builder
+                </Button>
             </Header>
             <Content
                 style={{
                     margin: '16px 0'
                 }}
             >
-                
+
                 <div
                     className="site-layout-content"
                     style={{
