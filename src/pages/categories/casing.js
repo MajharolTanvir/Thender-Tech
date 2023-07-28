@@ -3,7 +3,6 @@ import ComponentCard from '@/components/Ui/componentCard';
 import React from 'react';
 
 const Casing = ({ products }) => {
-    console.log(products)
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
             {
