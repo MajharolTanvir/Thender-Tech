@@ -37,7 +37,7 @@ The home page should feature at least 6 random PC components as Featured Product
 [x] Each featured product will be clickable and should take the user to the product detail page. (Button/Entire Card)
 
 
-[] There should be 6 Featured Categories under the Featured Product section. The Categories are:
+[x] There should be 6 Featured Categories under the Featured Product section. The Categories are:
 
 - CPU / Processor
 - Motherboard
@@ -47,11 +47,11 @@ The home page should feature at least 6 random PC components as Featured Product
 - Monitor
 - Others (GPU, Mouse, Keyboard, etc…)
 
-[] Featured Category Sections: (SSG implementation)
+[x] Featured Category Sections: (SSG implementation)
 Each featured category should be clickable.
 
-[] Clicking on any of the Featured Categories will redirect the user to another page where at least 3 products of that category will be displayed.
-[] Each product card on this page should show the following properties:
+[x] Clicking on any of the Featured Categories will redirect the user to another page where at least 3 products of that category will be displayed.
+[x] Each product card on this page should show the following properties:
 - Image
 - Product Name
 - Category
@@ -59,7 +59,7 @@ Each featured category should be clickable.
 - Status ( In Stock | Out of stock)
 - Rating (Out of 5 Stars)
 
-[] Each product retrieved after querying on this page will also be clickable and should take the user to the product detail page.
+[x] Each product retrieved after querying on this page will also be clickable and should take the user to the product detail page.
 
 
 #### Product Detail Page / Route: (SSG implementation)
