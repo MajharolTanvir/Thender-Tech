@@ -11,69 +11,76 @@ const { Header, Content, Footer } = Layout;
 const items = [
     {
         label: (
-            <a rel="noopener noreferrer" href="/categories/processor">
+            <Link rel="noopener noreferrer" href="/categories/processor">
                 Processor
-            </a>
+            </Link>
         ),
         key: '0',
     },
     {
         label: (
-            <a rel="noopener noreferrer" href="/categories/motherboard">
+            <Link rel="noopener noreferrer" href="/categories/motherboard">
                 Motherboard
-            </a>
+            </Link>
         ),
         key: '1',
     },
     {
         label: (
-            <a rel="noopener noreferrer" href="/categories/ram">
+            <Link rel="noopener noreferrer" href="/categories/ram">
                 RAM
-            </a>
+            </Link>
         ),
         key: '2',
     }, {
         label: (
-            <a rel="noopener noreferrer" href="/categories/powersupply">
+            <Link rel="noopener noreferrer" href="/categories/powersupply">
                 Power Supply Unit
-            </a>
+            </Link>
         ),
         key: '3',
     }, {
         label: (
-            <a rel="noopener noreferrer" href="/categories/storagedevice">
+            <Link rel="noopener noreferrer" href="/categories/storagedevice">
                 Storage Device
-            </a>
+            </Link>
         ),
         key: '4',
     }, {
         label: (
-            <a rel="noopener noreferrer" href="/categories/monitor">
+            <Link rel="noopener noreferrer" href="/categories/monitor">
                 Monitor
-            </a>
+            </Link>
         ),
         key: '5',
     }, {
         label: (
-            <a rel="noopener noreferrer" href="/categories/casing">
+            <Link rel="noopener noreferrer" href="/categories/casing">
                 Casing
-            </a>
+            </Link>
         ),
         key: '6',
     }, {
         label: (
-            <a rel="noopener noreferrer" href="/categories/mouse">
+            <Link rel="noopener noreferrer" href="/categories/mouse">
                 Mouse
-            </a>
+            </Link>
         ),
         key: '7',
     }, {
         label: (
-            <a rel="noopener noreferrer" href="/categories/keyboard">
+            <Link rel="noopener noreferrer" href="/categories/keyboard">
                 Keyboard
-            </a>
+            </Link>
         ),
         key: '8',
+    }, {
+        label: (
+            <Link rel="noopener noreferrer" href="/categories/gpu">
+                Gpu
+            </Link>
+        ),
+        key: '9',
     },
     {
         type: 'divider',
@@ -85,7 +92,7 @@ const RootLayout = ({ children }) => {
         token: { colorBgContainer },
     } = theme.useToken();
     return (
-        <Layout className="layout">
+        <Layout className="layout bg-white">
             <Header
                 style={{
                     backgroundColor: '#1E062E',
@@ -132,7 +139,7 @@ const RootLayout = ({ children }) => {
             >
 
                 <div
-                    className="site-layout-content"
+                    className="container mx-auto"
                     style={{
                         background: colorBgContainer,
                         minHeight: '100vh',
@@ -147,6 +154,8 @@ const RootLayout = ({ children }) => {
             <Footer
                 style={{
                     textAlign: 'center',
+                    backgroundColor: '#1E062E',
+                    color: 'white'
                 }}
             >
                 Ant Design ©2023 Created by Ant UED

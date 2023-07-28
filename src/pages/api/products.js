@@ -23,9 +23,18 @@ async function run(req, res) {
             const products = await productCollection.find({}).toArray();
             res.send({ message: 'success', status: 200, data: products })
         }
+
+
+
+
+
     } finally {
         // Ensures that the client will close when you finish/error
         // await client.close();
     }
 }
 export default run
+
+
+// Thunder-tech-admin
+// RLG826uZjfqzS3zI

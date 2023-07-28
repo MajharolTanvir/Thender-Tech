@@ -1,4 +1,4 @@
-import { Card, Col, Row } from 'antd';
+import { Card } from 'antd';
 import React from 'react';
 import { GiCpu, GiPowerGenerator } from "react-icons/gi";
 import { BsMotherboard, BsMouse3, BsKeyboard, BsGpuCard } from "react-icons/bs";
@@ -52,21 +52,19 @@ const categories = [
 
 const CategoriesSection = () => {
     return (
-        <Row gutter={[16, 16]}>
+        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-10' >
             {
-                categories.map((category, index) => (<Col key={index + 1}>
-                    <Link href={category.path}><Card style={{
-                        width: '240px',
-                        textAlign: 'center'
-                    }}>
-                        <h1 style={{
-                            fontSize: '60px'
-                        }}>{category.icon}</h1>
-                        <h1>{category.label}</h1>
-                    </Card></Link>
-                </Col>))
+                categories.map((category, index) => (
+                    <div key={index + 1} className='w-[260px]'>
+                        <Link href={category.path}>
+                            <Card className='text-center'>
+                                <h1 className='text-5xl'>{category.icon}</h1>
+                                <h1 className='text-xl'>{category.label}</h1>
+                            </Card>
+                        </Link>
+                    </div>))
             }
-        </Row>
+        </div>
     );
 };
 

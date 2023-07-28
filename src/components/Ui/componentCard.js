@@ -1,24 +1,25 @@
-import { Button, Card, Col } from 'antd';
+import { Button, Card, Col, Rate } from 'antd';
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-const ComponentCard = () => {
+const ComponentCard = ({ product }) => {
     return (
-        <Col xs={24} sm={24} md={12} lg={8}>
-            <Card
+        <div>
+            <Card className='h-full'
                 hoverable
-                cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+                cover={<Image alt="example" src={product.image} width={150} height={250} />}
             >
-                <h1>Title</h1>
-                <p>Category</p>
-                <p>price</p>
-                <p>status</p>
-                <p>rating</p>
-                <Link href='/'>
-                    <Button>View Details</Button>
+                <h1>{product.productName}</h1>
+                <p>Category: {product.category}</p>
+                <p>Price: {product.price}</p>
+                <p>Status: {product.status}</p>
+                <Rate allowHalf defaultValue={product.rating} />
+                <Link className='flex justify-center' href='/'>
+                    <Button className='w-full'>View Details</Button>
                 </Link>
             </Card>
-        </Col>
+        </div>
     );
 };
 

@@ -27,14 +27,14 @@ Each category should have a corresponding route. (SSG implementation)
 #### Home Page: (SSG implementation)
 The home page should feature at least 6 random PC components as Featured Products.
 
-[] Each Featured product card should display the following properties:
+[x] Each Featured product card should display the following properties:
 - Image
 - Product Name
 - Category
 - Price
 - Status ( In Stock | Out of stock)
 - Rating (Out of 5 Stars)
-[] Each featured product will be clickable and should take the user to the product detail page. (Button/Entire Card)
+[x] Each featured product will be clickable and should take the user to the product detail page. (Button/Entire Card)
 
 
 [] There should be 6 Featured Categories under the Featured Product section. The Categories are:
