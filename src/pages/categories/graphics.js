@@ -27,7 +27,7 @@ Graphics.getLayout = function getLayout(page) {
 export const getStaticProps = async () => {
     const res = await fetch(`http://localhost:3000/api/products`)
     const productsData = await res.json()
-    const data = productsData.data.filter(products => products?.category === 'GPU')
+    const data = productsData.data.filter(products => products?.category === 'Gpu')
 
 
     return {

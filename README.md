@@ -81,7 +81,7 @@ Each featured category should be clickable.
 
 ### PC Builder Page: (SSR implementation)
 
-[] The PC Builder page should have category sections as follows:
+[x] The PC Builder page should have category sections as follows:
 - CPU / Processor
 - Motherboard
 - RAM
@@ -90,9 +90,9 @@ Each featured category should be clickable.
 - Monitor
 [] Each category will have a Choose/Select Button.
 
-[] Clicking on the Choose/Select Button will take the user to another page where at least 3 components of that specific category will be displayed.
+[x] Clicking on the Choose/Select Button will take the user to another page where at least 3 components of that specific category will be displayed.
 
-[] Each component card on this page should show the following properties:
+[x] Each component card on this page should show the following properties:
 - Image
 - Product Name
 - Category
@@ -101,9 +101,9 @@ Each featured category should be clickable.
 - Rating
 - Each component card on that page will have an Add To Builder Button.
 
-[] Clicking on this button will redirect the user to the PC Builder page, and it will update the state of that selected category section in the PC Builder Page with the selected component below. (You can use Redux / Context API to create a central store for this)
+[x] Clicking on this button will redirect the user to the PC Builder page, and it will update the state of that selected category section in the PC Builder Page with the selected component below. (You can use Redux / Context API to create a central store for this)
 
-[] After adding at least 5 - 6 Components (CPU, RAM, Power Supply, Storage, Motherboard, Casing), the user will be able to click on the Complete Build button. (This button will be disabled unless the user adds at least 5-6 of the mentioned components)
+[x] After adding at least 5 - 6 Components (CPU, RAM, Power Supply, Storage, Motherboard, Casing), the user will be able to click on the Complete Build button. (This button will be disabled unless the user adds at least 5-6 of the mentioned components)
 
 ### Bonus Part:
 [x] The PC Builder Page should be a protected/private route (only logged-in users can visit this route). You have to use NextAuth with at least one social login (Google/Github) provider to enable user authentication.
