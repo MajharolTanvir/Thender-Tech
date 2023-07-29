@@ -1,3 +1,4 @@
+import Navbar from '@/components/Layouts/Navbar';
 import RootLayout from '@/components/Layouts/RootLayout';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -46,9 +47,14 @@ export default ChoseComponent;
 
 ChoseComponent.getLayout = function getLayout(page) {
     return (
-        <RootLayout>
-            {page}
-        </RootLayout>
+        <>
+            <RootLayout >
+                {page}
+            </RootLayout>
+            <Navbar>
+                {page}
+            </Navbar>
+        </>
     )
 }
 

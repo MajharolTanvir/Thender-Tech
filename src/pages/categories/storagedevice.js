@@ -1,3 +1,4 @@
+import Navbar from '@/components/Layouts/Navbar';
 import RootLayout from '@/components/Layouts/RootLayout';
 import ComponentCard from '@/components/Ui/componentCard';
 import React from 'react';
@@ -17,9 +18,14 @@ export default StorageDevice;
 
 StorageDevice.getLayout = function getLayout(page) {
     return (
-        <RootLayout>
-            {page}
-        </RootLayout>
+        <>
+            <RootLayout >
+                {page}
+            </RootLayout>
+            <Navbar>
+                {page}
+            </Navbar>
+        </>
     )
 }
 

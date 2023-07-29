@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form"
 import { signIn } from "next-auth/react"
 import auth from '@/firebase/firebase.auth';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import Navbar from '@/components/Layouts/Navbar';
 
 const Login = () => {
     const [
@@ -73,8 +74,15 @@ export default Login;
 
 Login.getLayout = function getLayout(page) {
     return (
-        <RootLayout>
-            {page}
-        </RootLayout>
+        (
+            <>
+                <RootLayout >
+                    {page}
+                </RootLayout>
+                <Navbar>
+                    {page}
+                </Navbar>
+            </>
+        )
     )
 }

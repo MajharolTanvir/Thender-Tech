@@ -1,3 +1,4 @@
+import Navbar from '@/components/Layouts/Navbar';
 import RootLayout from '@/components/Layouts/RootLayout';
 import CategorySelection from '@/components/Ui/categorySelection';
 import { SmileOutlined } from '@ant-design/icons';
@@ -97,8 +98,13 @@ export default PcBuilder;
 
 PcBuilder.getLayout = function getLayout(page) {
     return (
-        <RootLayout>
-            {page}
-        </RootLayout>
+        <>
+            <RootLayout >
+                {page}
+            </RootLayout>
+            <Navbar>
+                {page}
+            </Navbar>
+        </>
     )
 }

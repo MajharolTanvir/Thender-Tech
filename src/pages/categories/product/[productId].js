@@ -1,4 +1,5 @@
 'use client'
+import Navbar from '@/components/Layouts/Navbar';
 import RootLayout from '@/components/Layouts/RootLayout';
 import ProductDetails from '@/components/Ui/productDetails';
 import React from 'react';
@@ -18,9 +19,14 @@ export default SingleProduct;
 
 SingleProduct.getLayout = function getLayout(page) {
     return (
-        <RootLayout>
-            {page}
-        </RootLayout>
+        <>
+            <RootLayout >
+                {page}
+            </RootLayout>
+            <Navbar>
+                {page}
+            </Navbar>
+        </>
     )
 }
 
