@@ -1,7 +1,6 @@
 
 import RootLayout from '@/components/Layouts/RootLayout';
 import CategoriesSection from '@/components/Ui/categoriesSection';
-// import ComponentCard from '@/components/Ui/componentCard';
 import React from 'react';
 import dynamic from 'next/dynamic'
 import Hero from '@/components/Ui/hero';
@@ -20,24 +19,16 @@ const HomePage = ({ products }) => {
       <section className='w-full'>
         <Hero></Hero>
       </section>
-      <section style={{
-        margin: '40px 0'
-      }}>
-        <h1 style={{
-          paddingBottom: '15px',
-          fontSize: '30px'
-        }}>Featured Products</h1>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
+      <section className='my-10'>
+        <h1 className='text-lg md:text-2xl lg:text-3xl text-center'>Featured Products</h1>
+        <div className='grid xs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10'>
           {
             products?.map(product => <ComponentCard key={product?._id} product={product} />)
           }
         </div>
       </section>
-      <section className='my-20'>
-        <h1 style={{
-          paddingBottom: '15px',
-          fontSize: '30px'
-        }}>Featured Categories</h1>
+      <section className='my-10'>
+        <h1 className='text-lg md:text-2xl lg:text-3xl text-center'>Featured Categories</h1>
         <CategoriesSection className='w-full' />
       </section>
     </div>

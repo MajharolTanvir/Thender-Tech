@@ -52,13 +52,13 @@ const categories = [
 
 const CategoriesSection = () => {
     return (
-        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-10' >
+        <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 md:gap-5 lg:gap-8' >
             {
                 categories.map((category, index) => (
-                    <div key={index + 1} className='w-[260px]'>
+                    <div key={index + 1} className='w-full lg:w-[260px]'>
                         <Link href={category.path}>
-                            <Card className='text-center'>
-                                <h1 className='text-5xl'>{category.icon}</h1>
+                            <Card className='text-center p-0'>
+                                <h1 className='text-5xl my-2'>{category.icon}</h1>
                                 <h1 className='text-xl'>{category.label}</h1>
                             </Card>
                         </Link>

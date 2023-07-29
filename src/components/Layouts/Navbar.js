@@ -61,7 +61,7 @@ const Navbar = ({ children }) => {
     const { data: session } = useSession()
     const [user] = useAuthState(auth);
     const [{ signOut: logout }] = useSignOut(auth);
-    const [collapsed, setCollapsed] = useState(false);
+    const [collapsed, setCollapsed] = useState(true);
     const {
         token: { colorBgContainer },
     } = theme.useToken();
@@ -74,20 +74,6 @@ const Navbar = ({ children }) => {
             }}
         >
             <Sider collapsible collapsed={collapsed} onCollapse={(value) => setCollapsed(value)}>
-                <div>
-                    <h1 className='text-center'>
-                        <Link
-                            href="/"
-                            style={{
-                                color: "white",
-                                padding: "5px 10px",
-                                borderRadius: "3px",
-                            }}
-                        >
-                            Thunder_Tech
-                        </Link>
-                    </h1>
-                </div>
                 <Menu theme="dark" mode="inline" items={items} />
 
                 {
@@ -156,20 +142,27 @@ const Navbar = ({ children }) => {
             </Sider>
             <Layout>
                 <Header
+                    
                     style={{
                         padding: 0,
-                        background: 'white',
-                        height: '0px'
                     }}
-                />
-                <Content
-                    style={{
-                        margin: '0 16px',
-                    }}
-                >
+                ><div>
+                        <h1 className='text-center text-md'>
+                            <Link
+                                href="/"
+                                style={{
+                                    color: "white",
+                                }}
+                            >
+                                Thunder_Tech
+                            </Link>
+                        </h1>
+                    </div>
+                </Header>
+                <Content>
                     <div
                         style={{
-                            padding: 24,
+                            padding: 10,
                             minHeight: 360,
                             background: colorBgContainer,
                         }}
@@ -179,13 +172,6 @@ const Navbar = ({ children }) => {
                         }
                     </div>
                 </Content>
-                <Footer
-                    style={{
-                        textAlign: 'center',
-                    }}
-                >
-                    Ant Design ©2023 Created by Ant UED
-                </Footer>
             </Layout>
         </Layout>
     );
