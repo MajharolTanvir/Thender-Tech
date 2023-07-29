@@ -3,10 +3,11 @@ import { Button, Layout, theme } from 'antd';
 import Link from 'next/link';
 import { DownOutlined } from '@ant-design/icons';
 import { Dropdown, Space } from 'antd';
-
+import { useSession, signOut } from "next-auth/react"
+import auth from '@/firebase/firebase.auth';
+import { useAuthState, useSignOut } from 'react-firebase-hooks/auth';
 
 const { Header, Content, Footer } = Layout;
-
 
 const items = [
     {
@@ -76,8 +77,8 @@ const items = [
         key: '8',
     }, {
         label: (
-            <Link rel="noopener noreferrer" href="/categories/gpu">
-                Gpu
+            <Link rel="noopener noreferrer" href="/categories/graphics">
+                Graphics
             </Link>
         ),
         key: '9',
@@ -87,7 +88,12 @@ const items = [
     }
 ];
 
+
 const RootLayout = ({ children }) => {
+    const { data: session } = useSession()
+    const [user] = useAuthState(auth);
+    const [{signOut: logout}] = useSignOut(auth);
+
     const {
         token: { colorBgContainer },
     } = theme.useToken();
@@ -95,42 +101,66 @@ const RootLayout = ({ children }) => {
         <Layout className="layout bg-white">
             <Header
                 style={{
-                    backgroundColor: '#1E062E',
+                    backgroundColor: '#0F172A',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'space-between'
                 }}
             >
-                <div><h1>
-                    <Link
-                        href="/"
-                        style={{
-                            color: "white",
-                            padding: "5px 10px",
-                            borderRadius: "3px",
+                <div>
+                    <h1>
+                        <Link
+                            href="/"
+                            style={{
+                                color: "white",
+                                padding: "5px 10px",
+                                borderRadius: "3px",
+                            }}
+                        >
+                            Thunder_Tech
+                        </Link>
+                    </h1>
+                </div>
+                
+                <div className='flex gap-6'>
+                    <Dropdown
+                        menu={{
+                            items,
                         }}
                     >
-                        Thunder_Tech
-                    </Link>
-                </h1></div>
-                <Dropdown
-                    menu={{
-                        items,
-                    }}
-                >
-                    <a onClick={(e) => e.preventDefault()}>
-                        <Space style={{
-                            color: 'white',
-                            fontSize: '16px'
-                        }}>
-                            Categories
-                            <DownOutlined />
-                        </Space>
-                    </a>
-                </Dropdown>
-                <Button>
+                        <a onClick={(e) => e.preventDefault()}>
+                            <Space style={{
+                                color: 'white',
+                                fontSize: '16px'
+                            }}>
+                                Categories
+                                <DownOutlined />
+                            </Space>
+                        </a>
+                    </Dropdown>
+                    {
+                        (session?.user?.email || user?.email) ? <>
+                            {
+                                session?.user?.email && <button className='text-lg bg-transparent border-none text-white cursor-pointer' onClick={() => signOut()}>
+                                    Logout
+                                </button>
+                            }
+                            {
+                                user?.email && <button className='text-lg bg-transparent border-none text-white cursor-pointer' onClick={() => logout()}>
+                                    Logout
+                                </button>
+                        }
+                        
+                        </>
+                            : <Link style={{
+                                color: 'white',
+                                fontSize: '16px'
+                            }} href='/login'>Login</Link>
+                    }
+                </div>
+                <Link href='/pc-builder'><Button>
                     PC Builder
-                </Button>
+                </Button></Link>
             </Header>
             <Content
                 style={{
@@ -154,7 +184,7 @@ const RootLayout = ({ children }) => {
             <Footer
                 style={{
                     textAlign: 'center',
-                    backgroundColor: '#1E062E',
+                    backgroundColor: '#0F172A',
                     color: 'white'
                 }}
             >

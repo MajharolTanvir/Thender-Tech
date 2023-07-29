@@ -1,11 +1,18 @@
 
 import RootLayout from '@/components/Layouts/RootLayout';
 import CategoriesSection from '@/components/Ui/categoriesSection';
-import ComponentCard from '@/components/Ui/componentCard';
-import { Row } from 'antd';
+// import ComponentCard from '@/components/Ui/componentCard';
 import React from 'react';
+import dynamic from 'next/dynamic'
 
 const HomePage = ({ products }) => {
+
+  const ComponentCard = dynamic(() => import('@/components/Ui/componentCard'), {
+    loading: () => <p>Loading...</p>,
+  })
+
+
+
   return (
     <div>
       <section style={{
@@ -17,7 +24,7 @@ const HomePage = ({ products }) => {
         }}>Featured Products</h1>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
           {
-            products?.map(product => <ComponentCard key={product.id} product={product} />)
+            products?.map(product => <ComponentCard key={product?._id} product={product} />)
           }
         </div>
       </section>

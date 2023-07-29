@@ -1,4 +1,3 @@
-
 import { MongoClient, ServerApiVersion } from 'mongodb';
 
 const uri = "mongodb+srv://Thunder-tech-admin:RLG826uZjfqzS3zI@cluster0.jor48.mongodb.net/?retryWrites=true&w=majority";
@@ -14,16 +13,21 @@ const client = new MongoClient(uri, {
 
 async function run(req, res) {
     try {
-        // Connect the client to the server	(optional starting in v4.7)
         await client.connect();
-        // Send a ping to confirm a successful connection
         const productCollection = client.db("Thunder-Tech").collection('products');
+
 
         if (req.method === 'GET') {
             const products = await productCollection.find({}).toArray();
             res.send({ message: 'success', status: 200, data: products })
         }
 
+        // if (req.method === 'GET' && req.params) {
+        //     // Check if an _id parameter is provided in the request
+        //     const { id } = req.params;
+        //     const product = await productCollection.findOne({ _id: id })
+        //     res.send({ message: 'success', status: 200, data: product })
+        // }
 
 
 

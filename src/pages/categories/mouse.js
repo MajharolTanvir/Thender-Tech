@@ -6,7 +6,7 @@ const Mouse = ({products}) => {
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
             {
-                products?.map(product => <ComponentCard key={product.id} product={product} />)
+                products?.map(product => <ComponentCard key={product?._id} product={product} />)
             }
         </div>
     );

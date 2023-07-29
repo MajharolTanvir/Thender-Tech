@@ -55,7 +55,7 @@ Each featured category should be clickable.
 - Image
 - Product Name
 - Category
-- Price
+- Pricej
 - Status ( In Stock | Out of stock)
 - Rating (Out of 5 Stars)
 
@@ -106,7 +106,8 @@ Each featured category should be clickable.
 [] After adding at least 5 - 6 Components (CPU, RAM, Power Supply, Storage, Motherboard, Casing), the user will be able to click on the Complete Build button. (This button will be disabled unless the user adds at least 5-6 of the mentioned components)
 
 ### Bonus Part:
-The PC Builder Page should be a protected/private route (only logged-in users can visit this route). You have to use NextAuth with at least one social login (Google/Github) provider to enable user authentication.
+[x] The PC Builder Page should be a protected/private route (only logged-in users can visit this route). You have to use NextAuth with at least one social login (Google/Github) provider to enable user authentication.
+
 Clicking on the Complete Build button will show a success alert.
 The Home page should also have a hero section/banner section and a footer.
 The entire application must be responsive for both mobile and desktop devices to ensure an enjoyable user experience across all devices.

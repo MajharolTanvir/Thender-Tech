@@ -10,14 +10,14 @@
       "price": "14300",
       "status": "In Stock",
       "rating": 4.5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "Ryzen",
         "model": "Ryzen 5 5600",
         "speed": "3.5GHz up to 4.4GHz",
         "cache": "L2: 3MB, L3: 32MB; Cores-6 & Threads-12"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -37,14 +37,14 @@
       "price": "14000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "Intel",
         "model": "Core i3-13100F",
         "speed": "3.40 GHz up to 4.50 GHz",
         "cache": "12 MB"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -64,14 +64,14 @@
       "price": "11300",
       "status": "Out of Stoke",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "Intel",
         "model": "Intel Core i3 10100",
         "speed": "3.60 up to 4.30 GHz",
         "cache": "6M Cache"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -91,14 +91,14 @@
       "price": "10300",
       "status": "In Stock",
       "rating": 4,
-      "key-features": {
+      "keyFeatures": {
         "brand": "Ryzeb",
         "model": "Ryzen 3 4100",
         "speed": "3.8GHz; Up to 4.0GHz",
         "cache": "256KB; L2 Cache: 2MB; L3 Cache: 4MB"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -118,14 +118,14 @@
       "price": "36000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "Intel",
         "model": "Core i5 13600K",
         "speed": "3.50 GHz up to 5.10 GHz",
         "cache": "24 MB, Socket: LGA1700"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -147,15 +147,15 @@
       "price": "16499",
       "status": "In Stock",
       "rating": 4,
-      "key-features": {
+      "keyFeatures": {
         "brand": "MSI",
         "model": "PRO B660M-G DDR4",
         "Supported processors": "12th Gen Intel Core, Pentium Gold & Celeron processors",
         "Supported memory": "DDR4, up to 4600+(OC) MHz",
         "Graphics Output": "2 x DisplayPort, 1 x VGA, 1 x HDMI"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -175,15 +175,15 @@
       "price": "19800",
       "status": "In Stock",
       "rating": 4.5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "ASUS",
         "model": "PRO B760M-C-CSM",
         "Supported processors": "13th Gen & 12th Gen Processors (LGA1700)",
         "Supported memory": "4 x DIMM, Max. 192GB, DDR5 6200(OC)",
         "Graphics Output": "2 x DisplayPort, 1 x VGA, 1 x HDMI"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -203,15 +203,15 @@
       "price": "30000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "ASUS",
         "model": "TUF GAMING B650-PLUS",
         "Supported processors": "Ryzen 7000 Series Processors for Socket AM5",
         "Supported memory": "4x DDR5, up to 128GB, 6400+(OC)",
         "Graphics Output": "1x HDMI, 1x Display Port"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -231,15 +231,15 @@
       "price": "40500",
       "status": "Out of Stoke",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "GIGABYTE",
         "model": "Z790 AORUS ELITE AX",
         "Supported processors": "13th Gen & 12th Gen Processors (LGA1700)",
         "Supported memory": "4 x DDR5 DIMMs, up to 7600(O.C.)",
         "Graphics Output": "1 x HDMI, 1 x DisplayPort"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -259,15 +259,15 @@
       "price": "97000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "MSI",
         "model": "MEG X670E ACE",
         "Supported processors": "Ryzen 7000 Series Processors for Socket AM5",
         "Supported memory": "4x DDR5, Max 128GB",
         "Graphics Output": "1x Type-C Display port"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -289,15 +289,15 @@
       "price": "4200",
       "status": "In Stock",
       "rating": 4.3,
-      "key-features": {
+      "keyFeatures": {
         "brand": "CORSAIR",
         "model": "VENGEANCE RGB RS",
         "frequency": "3600Mhz",
         "capacity": "8GB (1 x 8GB)",
         "voltage": "1.25V/C36"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -317,15 +317,15 @@
       "price": "11800",
       "status": "Out of Stoke",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "G.Skill",
         "model": "Trident Z NEO RGB",
         "frequency": "3600MHz",
         "capacity": "32GB",
         "voltage": "1.35V; unbuffered"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -345,15 +345,15 @@
       "price": "17500",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "CORSAIR",
         "model": "VENGEANCE RGB",
         "frequency": "DDR5 5600MHz",
         "capacity": "32GB",
         "voltage": "1.25V/C36"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -373,15 +373,15 @@
       "price": "22500",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "CORSAIR",
         "model": "DOMINATOR PLATINUM RGB",
         "frequency": "DDR5 5200MHz",
         "capacity": "32GB (2x16GB)",
         "voltage": "1.25V/40-40-40-77"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -401,15 +401,15 @@
       "price": "47798",
       "status": "In Stock",
       "rating": "4.5",
-      "key-features": {
+      "keyFeatures": {
         "brand": "T-FORCE",
         "model": "T-FORCE DELTA RGB DDR5",
         "frequency": "7600MHz",
         "capacity": "32GB (16GBx2)",
         "voltage": "1.25V/40-40-40-77"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -431,7 +431,7 @@
       "price": "8500",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "NEOECO",
         "model": "NeoEco Gold 650W",
         "Certification": "80 Plus Gold",
@@ -439,8 +439,8 @@
         "modularType": "ATX 12V 2.4",
         "voltage": "100-240 VAC"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -460,7 +460,7 @@
       "price": "18000",
       "status": "Out of Stoke",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "CORSAIR",
         "model": "RM1000e",
         "Certification": "80 PLUS Gold Certification",
@@ -468,8 +468,8 @@
         "modularType": "Fully",
         "voltage": ""
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -489,7 +489,7 @@
       "price": "27000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "ANTEC",
         "model": "SP1300 Platinum",
         "Certification": "80 Plus Platinum",
@@ -497,8 +497,8 @@
         "modularType": "Fully",
         "voltage": "1300W"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -518,7 +518,7 @@
       "price": "45000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "CORSAIR",
         "model": "HX1500i 1500W",
         "Certification": "80 PLUS Efficiency Platinum",
@@ -526,8 +526,8 @@
         "modularType": "Fully Modular",
         "voltage": "100 - 240V"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -547,7 +547,7 @@
       "price": "50000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "ASUS",
         "model": "THOR 1200P2",
         "Certification": "Lambda A++ Certification",
@@ -555,8 +555,8 @@
         "modularType": "Fully modular",
         "voltage": "100 - 240V"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -578,7 +578,7 @@
       "price": "7690",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "SAMSUNG",
         "model": "980 1TB",
         "formFactory": "M.2 (2280)",
@@ -586,8 +586,8 @@
         "dimension": "3.15' X 0.94' X 0.87'",
         "weight": "1.92 oz"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -607,7 +607,7 @@
       "price": "9700",
       "status": "Out of Stoke",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "ZADAK",
         "model": "TWSS3",
         "formFactory": "2.5'",
@@ -615,8 +615,8 @@
         "dimension": "100mm x 69.9mm x 7mm",
         "weight": "1.92 oz"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -636,7 +636,7 @@
       "price": "2000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "BARACUDA",
         "model": "BarraCuda Q5",
         "formFactory": "M.2 2280",
@@ -644,8 +644,8 @@
         "dimension": "0.9 x 0.08 x 3.1' / 22 x 2.15 x 80 mm",
         "weight": "0.02 lb / 9 g"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -665,7 +665,7 @@
       "price": "31999",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "SAMSUNG",
         "model": "870 QVO",
         "formFactory": "2.5 inch, Capacity: 4TB",
@@ -673,8 +673,8 @@
         "dimension": "3.94' X 2.76' X 0.27'",
         "weight": "0.19 lbs."
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -694,7 +694,7 @@
       "price": "47500",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "IRONWOLF",
         "model": "IronWolf 125",
         "formFactory": "2.5 inch",
@@ -702,8 +702,8 @@
         "dimension": "3.94 x 2.76 x 0.28' / 10 x 7 x 0.7 cm",
         "weight": "50g"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -725,7 +725,7 @@
       "price": "12800",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "UNIVIEW",
         "model": "MW3224-V",
         "port": "1x VGA, 1x HDMI, 1x 3.5 mm",
@@ -733,8 +733,8 @@
         "features": "2x 1.5W Built-In Speakers",
         "aspectRation": "16:9"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -754,7 +754,7 @@
       "price": "20499",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "ASUS",
         "model": "VA249HE",
         "port": "HDMI, VGA",
@@ -762,8 +762,8 @@
         "features": "Flicker Free, Low Blue Light",
         "aspectRation": "16:9"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -783,7 +783,7 @@
       "price": "35000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "FANTECH",
         "model": "GM271SF Chimera",
         "port": "HDMI, DP, 3.5mm Audio Out",
@@ -791,8 +791,8 @@
         "features": "Free Sync",
         "aspectRation": "1920 x 1080"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -812,7 +812,7 @@
       "price": "52000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "ASUS",
         "model": "ASUS TUF VG259QM OC",
         "port": "HDMI, DP, 3.5mm Audio Out",
@@ -820,8 +820,8 @@
         "features": " Free Sync, Flicker Free, Low Blue Light, G-Sync",
         "aspectRation": "1920x1080"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -841,7 +841,7 @@
       "price": "65000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "ASUS",
         "model": "VP32UQ",
         "port": "1x HDMI, 1x DP",
@@ -849,8 +849,8 @@
         "features": "Free Sync, Eye Care, Flicker Free,100% RGB",
         "aspectRation": "16:9"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -872,14 +872,14 @@
       "price": "3499",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "CORSAIR",
         "model": "Corsair 470T RGB",
         "dimensions": "495 x 477 x 213 mm",
         "type": "Mid-Tower Gaming Casing"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -899,14 +899,14 @@
       "price": "8900",
       "status": "Out of Stoke",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "ANTEC",
         "model": "DP505 White",
         "dimensions": "481 x 220 x 490mm (DWH)",
         "type": "Mid Tower"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -926,14 +926,14 @@
       "price": "12400",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "XIGMATEK",
         "model": "Overtake",
         "dimensions": "485 x 247 x 566mm",
         "type": "Mid-Tower Gaming Casing"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -953,14 +953,14 @@
       "price": "24500",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "Lian",
         "model": "O11 Dynamic MINI",
         "dimensions": "(D)420mm X (W)269.5mm X (H)380mm",
         "type": "Mini-Tower"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -980,14 +980,14 @@
       "price": "86500",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "THERMALTAKE",
         "model": "Level 20",
         "dimensions": "732 x 280 x 688 mm",
         "type": "E-ATX Full Tower"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1009,14 +1009,14 @@
       "price": "475",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "FANTECH",
         "model": "Fantech G13 Rhasta II Pro",
         "type": "USB Wired",
         "buttons": "3 buttons + 1 scroll wheel / button"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1036,14 +1036,14 @@
       "price": "605",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "IMICE",
         "model": "V6",
         "type": "Wired Gaming Mouse",
         "buttons": "6 buttons"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1063,14 +1063,14 @@
       "price": "1050",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "FANTECH",
         "model": "VX7 Crypto Sakura Edition",
         "type": "wired",
         "buttons": "6"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1090,14 +1090,14 @@
       "price": "1950",
       "status": "Out of Stoke",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "LOGITECH",
         "model": "Logitech G102 Lightsync",
         "type": "Wired",
         "buttons": "6 programmable buttons"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1117,14 +1117,14 @@
       "price": "4700",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "LOGITECH",
         "model": "Logitech G502 HERO",
         "type": "Wired USB",
         "buttons": "50 million click"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1146,15 +1146,15 @@
       "price": "1200",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "IMICE",
         "model": "GK-700",
         "type": "RGB Gaming",
         "color": "Black",
         "dimension": "470x180x38mm"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1174,15 +1174,15 @@
       "price": "5800",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "DAREU",
         "model": "A87 Alpha",
         "type": "Mechanical",
         "color": "Black",
         "dimension": "359 x 136 x 36mm"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1202,15 +1202,15 @@
       "price": "8900",
       "status": "Out of Stoke",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "LOGITECH",
         "model": "Logitech G613",
         "type": "Bluetooth",
         "color": "Gray",
         "dimension": "Height: 478 mm"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1230,15 +1230,15 @@
       "price": "14000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "RAZER",
         "model": "Razer Huntsman Mini",
         "type": "60% Gaming Keyboard with Razer Optical Switch",
         "color": "Black and Mercury",
         "dimension": "462 X 155 X 39 mm"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1258,15 +1258,15 @@
       "price": "23500",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "ASUS",
         "model": "ROG CLAYMORE II",
         "type": "Mechanical Gaming",
         "color": "Black",
         "dimension": "462 X 155 X 39 mm"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1288,7 +1288,7 @@
       "price": "29500",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "ZOTAC",
         "model": "GAMING GeForce RTX 3050 Solo",
         "coreClock": "Boost: 1777 MHz",
@@ -1296,8 +1296,8 @@
         "busType": "128-bit",
         "dimension": "168mm x 132.2mm x 39.8mm / 6.6' x 5.2' x 1.6'"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1317,7 +1317,7 @@
       "price": "75000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "GIGABYTE",
         "model": "GeForce RTX 3070 EAGLE",
         "coreClock": "1725 MHz",
@@ -1325,8 +1325,8 @@
         "busType": "256 bit",
         "dimension": "282 x 115 x 41 mm"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1346,7 +1346,7 @@
       "price": "126900",
       "status": "Out of Stoke",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "MSI",
         "model": "GeForce RTX 4070 Ti GAMING X TRIO WHITE 12G",
         "coreClock": "Extreme Performance: 2760 MHz (MSI Center)",
@@ -1354,8 +1354,8 @@
         "busType": "192-bit",
         "dimension": "337 x 140 x 62 mm"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1375,7 +1375,7 @@
       "price": "128000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "GIGABYTE",
         "model": "GeForce RTX­­ 4070 Ti GAMING OC 12G",
         "coreClock": "2640 MHz (Reference card : 2610 MHz)",
@@ -1383,8 +1383,8 @@
         "busType": "192 bit",
         "dimension": "L=336 W=140 H=58 mm"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1404,7 +1404,7 @@
       "price": "181000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "GIGABYTE",
         "model": "GeForce RTX 4080 16GB GAMING OC",
         "coreClock": "2535 MHz (Reference Card: 2505 MHz)",
@@ -1412,8 +1412,8 @@
         "busType": "256 bit",
         "dimension": "L=342 W=150 H=75 mm"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1439,14 +1439,14 @@
       "price": "14300",
       "status": "In Stock",
       "rating": 4.5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "Ryzen",
         "model": "Ryzen 5 5600",
         "speed": "3.5GHz up to 4.4GHz",
         "cache": "L2: 3MB, L3: 32MB; Cores-6 & Threads-12"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1466,14 +1466,14 @@
       "price": "14000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "Intel",
         "model": "Core i3-13100F",
         "speed": "3.40 GHz up to 4.50 GHz",
         "cache": "12 MB"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1493,14 +1493,14 @@
       "price": "11300",
       "status": "Out of Stoke",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "Intel",
         "model": "Intel Core i3 10100",
         "speed": "3.60 up to 4.30 GHz",
         "cache": "6M Cache"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1520,14 +1520,14 @@
       "price": "10300",
       "status": "In Stock",
       "rating": 4,
-      "key-features": {
+      "keyFeatures": {
         "brand": "Ryzeb",
         "model": "Ryzen 3 4100",
         "speed": "3.8GHz; Up to 4.0GHz",
         "cache": "256KB; L2 Cache: 2MB; L3 Cache: 4MB"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1547,14 +1547,14 @@
       "price": "36000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "Intel",
         "model": "Core i5 13600K",
         "speed": "3.50 GHz up to 5.10 GHz",
         "cache": "24 MB, Socket: LGA1700"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1573,15 +1573,15 @@
       "price": "16499",
       "status": "In Stock",
       "rating": 4,
-      "key-features": {
+      "keyFeatures": {
         "brand": "MSI",
         "model": "PRO B660M-G DDR4",
         "Supported processors": "12th Gen Intel Core, Pentium Gold & Celeron processors",
         "Supported memory": "DDR4, up to 4600+(OC) MHz",
         "Graphics Output": "2 x DisplayPort, 1 x VGA, 1 x HDMI"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1601,15 +1601,15 @@
       "price": "19800",
       "status": "In Stock",
       "rating": 4.5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "ASUS",
         "model": "PRO B760M-C-CSM",
         "Supported processors": "13th Gen & 12th Gen Processors (LGA1700)",
         "Supported memory": "4 x DIMM, Max. 192GB, DDR5 6200(OC)",
         "Graphics Output": "2 x DisplayPort, 1 x VGA, 1 x HDMI"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1629,15 +1629,15 @@
       "price": "30000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "ASUS",
         "model": "TUF GAMING B650-PLUS",
         "Supported processors": "Ryzen 7000 Series Processors for Socket AM5",
         "Supported memory": "4x DDR5, up to 128GB, 6400+(OC)",
         "Graphics Output": "1x HDMI, 1x Display Port"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1657,15 +1657,15 @@
       "price": "40500",
       "status": "Out of Stoke",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "GIGABYTE",
         "model": "Z790 AORUS ELITE AX",
         "Supported processors": "13th Gen & 12th Gen Processors (LGA1700)",
         "Supported memory": "4 x DDR5 DIMMs, up to 7600(O.C.)",
         "Graphics Output": "1 x HDMI, 1 x DisplayPort"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1685,15 +1685,15 @@
       "price": "97000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "MSI",
         "model": "MEG X670E ACE",
         "Supported processors": "Ryzen 7000 Series Processors for Socket AM5",
         "Supported memory": "4x DDR5, Max 128GB",
         "Graphics Output": "1x Type-C Display port"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1713,15 +1713,15 @@
       "price": "4200",
       "status": "In Stock",
       "rating": 4.3,
-      "key-features": {
+      "keyFeatures": {
         "brand": "CORSAIR",
         "model": "VENGEANCE RGB RS",
         "frequency": "3600Mhz",
         "capacity": "8GB (1 x 8GB)",
         "voltage": "1.25V/C36"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1741,15 +1741,15 @@
       "price": "11800",
       "status": "Out of Stoke",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "G.Skill",
         "model": "Trident Z NEO RGB",
         "frequency": "3600MHz",
         "capacity": "32GB",
         "voltage": "1.35V; unbuffered"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1769,15 +1769,15 @@
       "price": "17500",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "CORSAIR",
         "model": "VENGEANCE RGB",
         "frequency": "DDR5 5600MHz",
         "capacity": "32GB",
         "voltage": "1.25V/C36"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1797,15 +1797,15 @@
       "price": "22500",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "CORSAIR",
         "model": "DOMINATOR PLATINUM RGB",
         "frequency": "DDR5 5200MHz",
         "capacity": "32GB (2x16GB)",
         "voltage": "1.25V/40-40-40-77"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1825,15 +1825,15 @@
       "price": "47798",
       "status": "In Stock",
       "rating": "4.5",
-      "key-features": {
+      "keyFeatures": {
         "brand": "T-FORCE",
         "model": "T-FORCE DELTA RGB DDR5",
         "frequency": "7600MHz",
         "capacity": "32GB (16GBx2)",
         "voltage": "1.25V/40-40-40-77"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1853,7 +1853,7 @@
       "price": "8500",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "NEOECO",
         "model": "NeoEco Gold 650W",
         "Certification": "80 Plus Gold",
@@ -1861,8 +1861,8 @@
         "modularType": "ATX 12V 2.4",
         "voltage": "100-240 VAC"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1882,7 +1882,7 @@
       "price": "18000",
       "status": "Out of Stoke",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "CORSAIR",
         "model": "RM1000e",
         "Certification": "80 PLUS Gold Certification",
@@ -1890,8 +1890,8 @@
         "modularType": "Fully",
         "voltage": ""
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1911,7 +1911,7 @@
       "price": "27000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "ANTEC",
         "model": "SP1300 Platinum",
         "Certification": "80 Plus Platinum",
@@ -1919,8 +1919,8 @@
         "modularType": "Fully",
         "voltage": "1300W"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1940,7 +1940,7 @@
       "price": "45000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "CORSAIR",
         "model": "HX1500i 1500W",
         "Certification": "80 PLUS Efficiency Platinum",
@@ -1948,8 +1948,8 @@
         "modularType": "Fully Modular",
         "voltage": "100 - 240V"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1969,7 +1969,7 @@
       "price": "50000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "ASUS",
         "model": "THOR 1200P2",
         "Certification": "Lambda A++ Certification",
@@ -1977,8 +1977,8 @@
         "modularType": "Fully modular",
         "voltage": "100 - 240V"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -1998,7 +1998,7 @@
       "price": "7690",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "SAMSUNG",
         "model": "980 1TB",
         "formFactory": "M.2 (2280)",
@@ -2006,8 +2006,8 @@
         "dimension": "3.15' X 0.94' X 0.87'",
         "weight": "1.92 oz"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2027,7 +2027,7 @@
       "price": "9700",
       "status": "Out of Stoke",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "ZADAK",
         "model": "TWSS3",
         "formFactory": "2.5'",
@@ -2035,8 +2035,8 @@
         "dimension": "100mm x 69.9mm x 7mm",
         "weight": "1.92 oz"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2056,7 +2056,7 @@
       "price": "2000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "BARACUDA",
         "model": "BarraCuda Q5",
         "formFactory": "M.2 2280",
@@ -2064,8 +2064,8 @@
         "dimension": "0.9 x 0.08 x 3.1' / 22 x 2.15 x 80 mm",
         "weight": "0.02 lb / 9 g"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2085,7 +2085,7 @@
       "price": "31999",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "SAMSUNG",
         "model": "870 QVO",
         "formFactory": "2.5 inch, Capacity: 4TB",
@@ -2093,8 +2093,8 @@
         "dimension": "3.94' X 2.76' X 0.27'",
         "weight": "0.19 lbs."
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2114,7 +2114,7 @@
       "price": "47500",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "IRONWOLF",
         "model": "IronWolf 125",
         "formFactory": "2.5 inch",
@@ -2122,8 +2122,8 @@
         "dimension": "3.94 x 2.76 x 0.28' / 10 x 7 x 0.7 cm",
         "weight": "50g"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2144,7 +2144,7 @@
       "price": "12800",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "UNIVIEW",
         "model": "MW3224-V",
         "port": "1x VGA, 1x HDMI, 1x 3.5 mm",
@@ -2152,8 +2152,8 @@
         "features": "2x 1.5W Built-In Speakers",
         "aspectRation": "16:9"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2173,7 +2173,7 @@
       "price": "20499",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "ASUS",
         "model": "VA249HE",
         "port": "HDMI, VGA",
@@ -2181,8 +2181,8 @@
         "features": "Flicker Free, Low Blue Light",
         "aspectRation": "16:9"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2202,7 +2202,7 @@
       "price": "35000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "FANTECH",
         "model": "GM271SF Chimera",
         "port": "HDMI, DP, 3.5mm Audio Out",
@@ -2210,8 +2210,8 @@
         "features": "Free Sync",
         "aspectRation": "1920 x 1080"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2231,7 +2231,7 @@
       "price": "52000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "ASUS",
         "model": "ASUS TUF VG259QM OC",
         "port": "HDMI, DP, 3.5mm Audio Out",
@@ -2239,8 +2239,8 @@
         "features": " Free Sync, Flicker Free, Low Blue Light, G-Sync",
         "aspectRation": "1920x1080"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2260,7 +2260,7 @@
       "price": "65000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "ASUS",
         "model": "VP32UQ",
         "port": "1x HDMI, 1x DP",
@@ -2268,8 +2268,8 @@
         "features": "Free Sync, Eye Care, Flicker Free,100% RGB",
         "aspectRation": "16:9"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2290,14 +2290,14 @@
       "price": "3499",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "CORSAIR",
         "model": "Corsair 470T RGB",
         "dimensions": "495 x 477 x 213 mm",
         "type": "Mid-Tower Gaming Casing"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2317,14 +2317,14 @@
       "price": "8900",
       "status": "Out of Stoke",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "ANTEC",
         "model": "DP505 White",
         "dimensions": "481 x 220 x 490mm (DWH)",
         "type": "Mid Tower"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2344,14 +2344,14 @@
       "price": "12400",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "XIGMATEK",
         "model": "Overtake",
         "dimensions": "485 x 247 x 566mm",
         "type": "Mid-Tower Gaming Casing"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2371,14 +2371,14 @@
       "price": "24500",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "Lian",
         "model": "O11 Dynamic MINI",
         "dimensions": "(D)420mm X (W)269.5mm X (H)380mm",
         "type": "Mini-Tower"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2398,14 +2398,14 @@
       "price": "86500",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "THERMALTAKE",
         "model": "Level 20",
         "dimensions": "732 x 280 x 688 mm",
         "type": "E-ATX Full Tower"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2426,14 +2426,14 @@
       "price": "475",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "FANTECH",
         "model": "Fantech G13 Rhasta II Pro",
         "type": "USB Wired",
         "buttons": "3 buttons + 1 scroll wheel / button"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2453,14 +2453,14 @@
       "price": "605",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "IMICE",
         "model": "V6",
         "type": "Wired Gaming Mouse",
         "buttons": "6 buttons"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2480,14 +2480,14 @@
       "price": "1050",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "FANTECH",
         "model": "VX7 Crypto Sakura Edition",
         "type": "wired",
         "buttons": "6"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2507,14 +2507,14 @@
       "price": "1950",
       "status": "Out of Stoke",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "LOGITECH",
         "model": "Logitech G102 Lightsync",
         "type": "Wired",
         "buttons": "6 programmable buttons"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2534,14 +2534,14 @@
       "price": "4700",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "LOGITECH",
         "model": "Logitech G502 HERO",
         "type": "Wired USB",
         "buttons": "50 million click"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2562,15 +2562,15 @@
       "price": "1200",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "IMICE",
         "model": "GK-700",
         "type": "RGB Gaming",
         "color": "Black",
         "dimension": "470x180x38mm"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2590,15 +2590,15 @@
       "price": "5800",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "DAREU",
         "model": "A87 Alpha",
         "type": "Mechanical",
         "color": "Black",
         "dimension": "359 x 136 x 36mm"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2618,15 +2618,15 @@
       "price": "8900",
       "status": "Out of Stoke",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "LOGITECH",
         "model": "Logitech G613",
         "type": "Bluetooth",
         "color": "Gray",
         "dimension": "Height: 478 mm"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2646,15 +2646,15 @@
       "price": "14000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "RAZER",
         "model": "Razer Huntsman Mini",
         "type": "60% Gaming Keyboard with Razer Optical Switch",
         "color": "Black and Mercury",
         "dimension": "462 X 155 X 39 mm"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2674,15 +2674,15 @@
       "price": "23500",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "ASUS",
         "model": "ROG CLAYMORE II",
         "type": "Mechanical Gaming",
         "color": "Black",
         "dimension": "462 X 155 X 39 mm"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2703,7 +2703,7 @@
       "price": "29500",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "ZOTAC",
         "model": "GAMING GeForce RTX 3050 Solo",
         "coreClock": "Boost: 1777 MHz",
@@ -2711,8 +2711,8 @@
         "busType": "128-bit",
         "dimension": "168mm x 132.2mm x 39.8mm / 6.6' x 5.2' x 1.6'"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2732,7 +2732,7 @@
       "price": "75000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "GIGABYTE",
         "model": "GeForce RTX 3070 EAGLE",
         "coreClock": "1725 MHz",
@@ -2740,8 +2740,8 @@
         "busType": "256 bit",
         "dimension": "282 x 115 x 41 mm"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2761,7 +2761,7 @@
       "price": "126900",
       "status": "Out of Stoke",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "MSI",
         "model": "GeForce RTX 4070 Ti GAMING X TRIO WHITE 12G",
         "coreClock": "Extreme Performance: 2760 MHz (MSI Center)",
@@ -2769,8 +2769,8 @@
         "busType": "192-bit",
         "dimension": "337 x 140 x 62 mm"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2790,7 +2790,7 @@
       "price": "128000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "GIGABYTE",
         "model": "GeForce RTX­­ 4070 Ti GAMING OC 12G",
         "coreClock": "2640 MHz (Reference card : 2610 MHz)",
@@ -2798,8 +2798,8 @@
         "busType": "192 bit",
         "dimension": "L=336 W=140 H=58 mm"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
@@ -2819,7 +2819,7 @@
       "price": "181000",
       "status": "In Stock",
       "rating": 5,
-      "key-features": {
+      "keyFeatures": {
         "brand": "GIGABYTE",
         "model": "GeForce RTX 4080 16GB GAMING OC",
         "coreClock": "2535 MHz (Reference Card: 2505 MHz)",
@@ -2827,8 +2827,8 @@
         "busType": "256 bit",
         "dimension": "L=342 W=150 H=75 mm"
       },
-      "individual-Rating": 5,
-      "average-rating": 4,
+      "individualRating": 5,
+      "averageRating": 4,
       "reviews": [
         {
           "email": "example@gmail.com",
