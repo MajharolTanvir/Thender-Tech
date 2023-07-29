@@ -55,7 +55,7 @@ Each featured category should be clickable.
 - Image
 - Product Name
 - Category
-- Pricej
+- Price
 - Status ( In Stock | Out of stock)
 - Rating (Out of 5 Stars)
 
@@ -109,12 +109,8 @@ Each featured category should be clickable.
 [x] The PC Builder Page should be a protected/private route (only logged-in users can visit this route). You have to use NextAuth with at least one social login (Google/Github) provider to enable user authentication.
 
 [x] Clicking on the Complete Build button will show a success alert.
-The Home page should also have a hero section/banner section and a footer.
-The entire application must be responsive for both mobile and desktop devices to ensure an enjoyable user experience across all devices.
-Create a ReadMe.md file describing your application, explaining its features, and providing clear instructions on how to run the project.
+[x] The Home page should also have a hero section/banner section and a footer.
+[] The entire application must be responsive for both mobile and desktop devices to ensure an enjoyable user experience across all devices.
+[x] Create a ReadMe.md file describing your application, explaining its features, and providing clear instructions on how to run the project.
 
-
-# Notes
-To manage the product's data, you need to create your own backend. This backend could be a single-page backend server or integrated with Next API routes.
-Do not use 'app' router.
 

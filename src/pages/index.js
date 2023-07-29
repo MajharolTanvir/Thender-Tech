@@ -4,6 +4,7 @@ import CategoriesSection from '@/components/Ui/categoriesSection';
 // import ComponentCard from '@/components/Ui/componentCard';
 import React from 'react';
 import dynamic from 'next/dynamic'
+import Hero from '@/components/Ui/hero';
 
 const HomePage = ({ products }) => {
 
@@ -15,6 +16,9 @@ const HomePage = ({ products }) => {
 
   return (
     <div>
+      <section className='w-full'>
+        <Hero></Hero>
+      </section>
       <section style={{
         margin: '40px 0'
       }}>
@@ -29,10 +33,10 @@ const HomePage = ({ products }) => {
         </div>
       </section>
       <section className='my-20'>
-      <h1 style={{
+        <h1 style={{
           paddingBottom: '15px',
           fontSize: '30px'
-      }}>Featured Categories</h1>
+        }}>Featured Categories</h1>
         <CategoriesSection className='w-full' />
       </section>
     </div>
