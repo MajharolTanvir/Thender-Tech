@@ -1,5 +1,7 @@
 import RootLayout from '@/components/Layouts/RootLayout';
 import CategorySelection from '@/components/Ui/categorySelection';
+import { SmileOutlined } from '@ant-design/icons';
+import { notification } from 'antd';
 import React, { useEffect, useState } from 'react';
 import { BsGpuCard, BsKeyboard, BsMotherboard, BsMouse3 } from 'react-icons/bs';
 import { CgBox, CgSmartphoneRam } from 'react-icons/cg';
@@ -52,6 +54,7 @@ const categories = [
 
 const PcBuilder = () => {
     const [userPcData, setUserPcData] = useState([])
+    const [api, contextHolder] = notification.useNotification();
 
     useEffect(() => {
         if (typeof window !== undefined) {
@@ -60,6 +63,13 @@ const PcBuilder = () => {
             setUserPcData(data)
         }
     }, [])
+
+    const openNotification = () => {
+        api.open({
+            message: 'Pc building completed',
+            icon: <SmileOutlined style={{ color: '#108ee9' }} />,
+        });
+    };
 
     return (
         <div className='w-full'>
@@ -72,7 +82,10 @@ const PcBuilder = () => {
             </div>
             <div className='flex justify-center'>
                 {
-                    userPcData.length >= 5 && <button className='px-10 p-2 rounded-lg text-md font-bold'>Complete build</button>
+                    userPcData.length >= 5 && <>
+                        {contextHolder}
+                        <button onClick={openNotification} className='px-10 p-2 rounded-lg text-md font-bold'>Complete build</button>
+                    </>
                 }
             </div>
         </div>
