@@ -16,8 +16,6 @@ const CategorySelection = ({ category, userPcData, setUserPcData }) => {
 
     const pcInfo = userPcData.find(pcData => pcData.category === category.label)
 
-    console.log(pcInfo?.category, category?.label)
-
     return (
         <div className='bg-white shadow-md shadow-slate-200 flex my-4 rounded-md text-slate-900 px-4'>
             <dic className='flex items-center justify-center w-[10%]'>
@@ -38,7 +36,7 @@ const CategorySelection = ({ category, userPcData, setUserPcData }) => {
             </div>
             {
                 pcInfo ? <div className='w-[10%] flex justify-center items-center'>
-                    <Image className='rounded-md' src={pcInfo.image} alt='' width={80} height={80} />
+                    <Image className='rounded-md' src={pcInfo.image} alt='' width={80} height={80} layout="responsive" />
                 </div> : <div className='w-[10%]'></div>
             }
             {

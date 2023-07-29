@@ -24,7 +24,7 @@ PowerSupply.getLayout = function getLayout(page) {
 }
 
 export const getStaticProps = async () => {
-    const res = await fetch(`http://localhost:3000/api/products`)
+    const res = await fetch(`http://localhost:5000/products`)
     const productsData = await res.json()
     const data = productsData.data.filter(products => products.category === 'Power-supply')
 

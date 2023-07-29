@@ -66,7 +66,7 @@ Each featured category should be clickable.
 
 #### Product Details:
 
-[] Each PC Component must have the following properties:
+[x] Each PC Component must have the following properties:
 - Image
 - Product Name
 - Category

@@ -1576,9 +1576,9 @@
       "keyFeatures": {
         "brand": "MSI",
         "model": "PRO B660M-G DDR4",
-        "Supported processors": "12th Gen Intel Core, Pentium Gold & Celeron processors",
-        "Supported memory": "DDR4, up to 4600+(OC) MHz",
-        "Graphics Output": "2 x DisplayPort, 1 x VGA, 1 x HDMI"
+        "SupportedProcessors": "12th Gen Intel Core, Pentium Gold & Celeron processors",
+        "SupportedMemory": "DDR4, up to 4600+(OC) MHz",
+        "GraphicsOutput": "2 x DisplayPort, 1 x VGA, 1 x HDMI"
       },
       "individualRating": 5,
       "averageRating": 4,
@@ -1604,9 +1604,9 @@
       "keyFeatures": {
         "brand": "ASUS",
         "model": "PRO B760M-C-CSM",
-        "Supported processors": "13th Gen & 12th Gen Processors (LGA1700)",
-        "Supported memory": "4 x DIMM, Max. 192GB, DDR5 6200(OC)",
-        "Graphics Output": "2 x DisplayPort, 1 x VGA, 1 x HDMI"
+        "SupportedProcessors": "13th Gen & 12th Gen Processors (LGA1700)",
+        "SupportedMemory": "4 x DIMM, Max. 192GB, DDR5 6200(OC)",
+        "GraphicsOutput": "2 x DisplayPort, 1 x VGA, 1 x HDMI"
       },
       "individualRating": 5,
       "averageRating": 4,
@@ -1632,9 +1632,9 @@
       "keyFeatures": {
         "brand": "ASUS",
         "model": "TUF GAMING B650-PLUS",
-        "Supported processors": "Ryzen 7000 Series Processors for Socket AM5",
-        "Supported memory": "4x DDR5, up to 128GB, 6400+(OC)",
-        "Graphics Output": "1x HDMI, 1x Display Port"
+        "SupportedProcessors": "Ryzen 7000 Series Processors for Socket AM5",
+        "SupportedMemory": "4x DDR5, up to 128GB, 6400+(OC)",
+        "GraphicsOutput": "1x HDMI, 1x Display Port"
       },
       "individualRating": 5,
       "averageRating": 4,
@@ -1660,9 +1660,9 @@
       "keyFeatures": {
         "brand": "GIGABYTE",
         "model": "Z790 AORUS ELITE AX",
-        "Supported processors": "13th Gen & 12th Gen Processors (LGA1700)",
-        "Supported memory": "4 x DDR5 DIMMs, up to 7600(O.C.)",
-        "Graphics Output": "1 x HDMI, 1 x DisplayPort"
+        "SupportedProcessors": "13th Gen & 12th Gen Processors (LGA1700)",
+        "SupportedMemory": "4 x DDR5 DIMMs, up to 7600(O.C.)",
+        "GraphicsOutput": "1 x HDMI, 1 x DisplayPort"
       },
       "individualRating": 5,
       "averageRating": 4,
@@ -1688,9 +1688,9 @@
       "keyFeatures": {
         "brand": "MSI",
         "model": "MEG X670E ACE",
-        "Supported processors": "Ryzen 7000 Series Processors for Socket AM5",
-        "Supported memory": "4x DDR5, Max 128GB",
-        "Graphics Output": "1x Type-C Display port"
+        "SupportedProcessors": "Ryzen 7000 Series Processors for Socket AM5",
+        "SupportedMemory": "4x DDR5, Max 128GB",
+        "GraphicsOutput": "1x Type-C Display port"
       },
       "individualRating": 5,
       "averageRating": 4,
