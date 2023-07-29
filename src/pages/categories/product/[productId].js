@@ -1,10 +1,11 @@
+'use client'
 import RootLayout from '@/components/Layouts/RootLayout';
 import ProductDetails from '@/components/Ui/productDetails';
 import React from 'react';
 
 
-const ProductFind = ({ product }) => {
-    console.log(product)
+
+const SingleProduct = ({ product }) => {
     return (
         <div>
             <ProductDetails product={product}></ProductDetails>
@@ -12,10 +13,10 @@ const ProductFind = ({ product }) => {
     );
 };
 
-export default ProductFind;
+export default SingleProduct;
 
 
-ProductFind.getLayout = function getLayout(page) {
+SingleProduct.getLayout = function getLayout(page) {
     return (
         <RootLayout>
             {page}

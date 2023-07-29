@@ -98,7 +98,7 @@ const RootLayout = ({ children }) => {
         token: { colorBgContainer },
     } = theme.useToken();
     return (
-        <Layout className="layout bg-white">
+        <Layout className="layout bg-white hidden md:flex">
             <Header
                 style={{
                     backgroundColor: '#0F172A',
@@ -160,7 +160,8 @@ const RootLayout = ({ children }) => {
                 </div>
                 <Link href='/pc-builder'><Button>
                     PC Builder
-                </Button></Link>
+                </Button>
+                </Link>
             </Header>
             <Content
                 style={{

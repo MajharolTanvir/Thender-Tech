@@ -5,6 +5,7 @@ import CategoriesSection from '@/components/Ui/categoriesSection';
 import React from 'react';
 import dynamic from 'next/dynamic'
 import Hero from '@/components/Ui/hero';
+import Navbar from '@/components/Layouts/Navbar';
 
 const HomePage = ({ products }) => {
 
@@ -47,9 +48,14 @@ export default HomePage;
 
 HomePage.getLayout = function getLayout(page) {
   return (
-    <RootLayout>
-      {page}
-    </RootLayout>
+    <>
+      <RootLayout >
+        { page}
+      </RootLayout>
+      <Navbar>
+        {page}
+      </Navbar>
+    </>
   )
 }
 
