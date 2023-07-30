@@ -51,7 +51,7 @@ HomePage.getLayout = function getLayout(page) {
 }
 
 export const getStaticProps = async () => {
-  const res = await fetch(`http://localhost:5000/products`)
+  const res = await fetch(`https://thunder-server.onrender.com/products`)
   const productsData = await res.json()
   const randomData = productsData.data.sort(() => Math.random() - 0.5)
   const data = randomData.slice(0, 6)

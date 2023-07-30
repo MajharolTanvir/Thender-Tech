@@ -3,10 +3,11 @@ import { Rate } from 'antd';
 import Image from 'next/image';
 
 const ProductDetails = ({ product }) => {
+    console.log(product)
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 items-center'>
             <div className=''>
-                <Image alt='' src={product.image} width={300} height={300} layout="responsive" />
+                <Image alt='' className='md:p-10' src={product.image} width={300} height={300} layout="responsive" />
             </div>
 
             <div className=''>
@@ -97,7 +98,9 @@ const ProductDetails = ({ product }) => {
             </div>
             <div>
                 <h1>Description</h1>
-                <p>{ product.description}</p>
+                {
+                    product.description ? <p>{product.description}</p> : <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores earum totam voluptatum dolore quia, aliquam esse. Facilis, eius accusamus officiis quis commodi doloribus nulla cupiditate repellat rem, nisi itaque laborum sint modi praesentium sapiente mollitia. Accusamus numquam fugiat officia quo itaque, tenetur, necessitatibus iure aspernatur, quod laborum quam repellendus minus repellat ut dolores architecto eum perferendis nam delectus suscipit? Officiis adipisci error sint doloribus veniam aspernatur officia quis est pariatur. Autem quae maxime dignissimos sit rerum impedit aperiam laudantium tenetur cum id earum, eum in minima accusantium ea qui, animi consectetur at delectus. Similique sequi nemo ut iste commodi.</p>
+                }
             </div>
         </div>
     );
