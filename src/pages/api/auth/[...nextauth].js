@@ -9,7 +9,7 @@ export const authOptions = {
         }),
     ],
 
-    pages: {signIn: "/login"}
+    pages: { signIn: "https://thunder-tech.vercel.app/login"}
 }
 
 export default NextAuth(authOptions)
