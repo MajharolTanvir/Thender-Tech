@@ -3,7 +3,6 @@ import { Rate } from 'antd';
 import Image from 'next/image';
 
 const ProductDetails = ({ product }) => {
-    console.log(product)
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 items-center'>
             <div className=''>

@@ -60,7 +60,7 @@ const Login = () => {
                     <h3 className='text-center'>Login with github</h3>
                     <div className='text-4xl text-center'>
                         <GithubOutlined onClick={() => signIn("github", {
-                            callbackUrl: "https://thunder-tech.vercel.app/pc-builder"
+                            callbackUrl: "https://thunder-tech.vercel.app"
                         })} />
                     </div>
                 </div>
