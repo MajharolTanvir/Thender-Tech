@@ -88,7 +88,7 @@ Each featured category should be clickable.
 - Power Supply Unit
 - Storage Device
 - Monitor
-[] Each category will have a Choose/Select Button.
+[x] Each category will have a Choose/Select Button.
 
 [x] Clicking on the Choose/Select Button will take the user to another page where at least 3 components of that specific category will be displayed.
 
@@ -110,7 +110,7 @@ Each featured category should be clickable.
 
 [x] Clicking on the Complete Build button will show a success alert.
 [x] The Home page should also have a hero section/banner section and a footer.
-[] The entire application must be responsive for both mobile and desktop devices to ensure an enjoyable user experience across all devices.
+[x] The entire application must be responsive for both mobile and desktop devices to ensure an enjoyable user experience across all devices.
 [x] Create a ReadMe.md file describing your application, explaining its features, and providing clear instructions on how to run the project.
 
 
