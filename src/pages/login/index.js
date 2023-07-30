@@ -28,14 +28,14 @@ const Login = () => {
 
     return (
         <div className='flex items-center justify-center w-full'>
-            <div className='p-10 shadow-lg rounded-lg bg-[#0F172A] text-white'>
+            <div className='p-4 md:p-10 shadow-lg rounded-lg bg-[#0F172A] text-white'>
                 <div>
                     <h1 className='text-center'>Login here</h1>
                     <div className='bg-slate-50 w-full p-[1px] rounded my-5'></div>
                 </div>
                 <form onSubmit={handleSubmit(onSubmit)}>
 
-                    <div className='my-2 w-60'>
+                    <div className='my-2 w-40 md:w-60'>
                         <label className='text-lg font-bold' htmlFor="email">Email</label><br />
                         <input className='p-2 outline-none border-none rounded-md w-full' type='Email' id='email' {...register("email", {
                             pattern: {
@@ -45,7 +45,7 @@ const Login = () => {
                         })} />
                     </div>
 
-                    <div className='my-2 w-60'>
+                    <div className='my-2 w-40 md:w-60'>
                         <label className='text-lg font-bold' htmlFor="password">Password</label><br />
                         <input className='p-2 outline-none border-none rounded-md w-full' type='password' {...register("password", { required: true })} />
                         {errors.exampleRequired && <span>This field is required</span>}

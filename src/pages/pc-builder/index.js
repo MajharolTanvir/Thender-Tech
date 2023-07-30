@@ -85,7 +85,7 @@ const PcBuilder = () => {
                 {
                     userPcData.length >= 5 && <>
                         {contextHolder}
-                        <button onClick={openNotification} className='p-2 w-[30%] text-md font-bold border-slate-900 rounded-md bg-slate-900 text-white cursor-pointer'>Complete build</button>
+                        <button onClick={openNotification} className='p-2 w-full md:w-[30%] text-md font-bold border-slate-900 rounded-md bg-slate-900 text-white cursor-pointer'>Complete build</button>
                     </>
                 }
             </div>

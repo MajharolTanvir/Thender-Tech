@@ -20,20 +20,20 @@ const ChoseComponent = ({ products }) => {
         <div className='w-full'>
             {
                 products.map(product => <>
-                    <div key={product?._id} className='bg-white shadow-md shadow-slate-200 flex my-4 rounded-md text-slate-900 px-4'>
-                        <div className='text-center w-[15%]'>
+                    <div key={product?._id} className='bg-white shadow-md shadow-slate-200 flex flex-col md:flex-row my-4 rounded-md text-slate-900 px-4'>
+                        <div className='text-center xl:w-[15%]'>
                             <Image src={product.image} alt='' width={180} height={180} />
                         </div>
                         <div className='w-[70%] pl-5'>
                             <div className='inline border-2 border-white'>
-                                <h1>{product.productName}</h1>
+                                <h1 className='text-[13px] md:text-[16px] lg:text-[20px]'>{product.productName}</h1>
                                 <p>Category: {product.category}</p>
                                 <p>Status: {product.status}</p>
                                 <p>Rating: {product.rating}</p>
                                 <h2 className='flex items-center'>{product.price}<TbCurrencyTaka /></h2>
                             </div>
                         </div>
-                        <div className='flex justify-center items-center w-[15%]'>
+                        <div className='flex justify-center items-center w-full md:w-[15%]'>
                             <button onClick={() => addProduct(product)} className='p-2 w-full text-md font-bold border-slate-900 rounded-md bg-slate-900 text-white cursor-pointer'>Add To Builder</button>
                         </div>
                     </div>

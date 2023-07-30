@@ -10,7 +10,7 @@ const ComponentCard = ({ product }) => {
                 <div>
                     <Image alt="example" src={product.image} priority width={200} height={200} layout="responsive" />
                 </div>
-                <div className='h-[190px] md:h-[170px] lg:h-[190px]'>
+                <div className='h-[210px] md:h-[170px] lg:h-[190px] xl:h-[210px]'>
                     <h1 className='xs:text-xs sm:text-[17px]'>{product.productName.slice(0, 45)}</h1>
                     <p className='xs:leading-3 xs:text-xs md:text-sm'>Category: {product.category}</p>
                     <p className='xs:leading-3 xs:text-xs md:text-sm'>Price: {product.price}</p>
